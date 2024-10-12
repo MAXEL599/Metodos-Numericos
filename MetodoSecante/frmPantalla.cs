@@ -108,6 +108,8 @@ namespace MetodoSecante
             return x => Math.Pow(x, 2) - 2;
         }
 
+
+
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             txtFuncion.Text = "";
